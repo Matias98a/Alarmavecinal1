@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmasFragment"
+    android:background="#1B1C27">
+
+    <ImageButton
+        android:id="@+id/btnRoboCasa"
+        android:layout_width="162dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="125dp"
+        android:src="@drawable/img_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnSospechoso"
+        android:layout_width="171dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#1B1C27"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnPolicia"
+        android:layout_width="171dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#1B1C27"
+        android:src="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="@+id/btnSospechoso"
+        app:layout_constraintStart_toStartOf="@+id/btnSospechoso"
+        app:layout_constraintTop_toBottomOf="@+id/btnSospechoso" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="177dp"
+        android:background="#631313"
+        android:text="ROBO DE CASA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRoboCasa" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginEnd="174dp"
+        android:text="SOSPECHOSO"
+        android:textSize="20sp"
+        android:background="#631313"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSospechoso" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginEnd="176dp"
+        android:text="POLICIA"
+        android:textSize="20sp"
+        android:background="#631313"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPolicia" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

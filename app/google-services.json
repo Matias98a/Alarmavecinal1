@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772656305701",
+    "project_id": "alarma-vecinal-992b4",
+    "storage_bucket": "alarma-vecinal-992b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772656305701:android:0431e6dddfe797ebce51cc",
+        "android_client_info": {
+          "package_name": "com.example.alarmavecinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772656305701-avcpvtvh7nrp64v51r79t5842htbqee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOnb-bNh1Bfia22_vAhcHB9bnGWpyJ1co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772656305701-avcpvtvh7nrp64v51r79t5842htbqee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

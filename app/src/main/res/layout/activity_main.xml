@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="410dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="1dp"
+        android:background="#1B1C27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnAlarma"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Alarmas"
+            android:backgroundTint="#631313"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnVecinos"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="mis vecinos"
+            android:backgroundTint="#631313"
+            app:layout_constraintStart_toEndOf="@+id/btnAlarma"
+            app:layout_constraintTop_toTopOf="@+id/btnAlarma" />
+
+        <Button
+            android:id="@+id/btnPoliciaFrag"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="policia"
+            android:backgroundTint="#631313"
+            app:layout_constraintStart_toEndOf="@+id/btnVecinos"
+            app:layout_constraintTop_toTopOf="@+id/btnVecinos" />
+
+        <Button
+            android:id="@+id/btnUtilidades"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Utilidades"
+            android:backgroundTint="#631313"
+            app:layout_constraintStart_toEndOf="@+id/btnPoliciaFrag"
+            app:layout_constraintTop_toTopOf="@+id/btnPoliciaFrag" />
+
+        <Button
+            android:id="@+id/btnEstadistica"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Estadisticas"
+            android:backgroundTint="#631313"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnUtilidades"
+            app:layout_constraintTop_toTopOf="@+id/btnUtilidades" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorMain"
+        android:layout_width="match_parent"
+        android:layout_height="642dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        tools:layout_editor_absoluteX="1dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_agregar_indicador.xml" value="0.25" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_agregar_vecino.xml" value="0.22" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_alarmas.xml" value="0.22" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_bienvenida.xml" value="0.22" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_estadisticas.xml" value="0.2" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_historial_alertas.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_lista_de_chats.xml" value="0.18" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_mis_datos.xml" value="0.22448979591836735" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_mis_vecinos.xml" value="0.25" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_policia.xml" value="0.25" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_registry.xml" value="0.18181818181818182" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/fragment_utilidades.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/item_alertas.xml" value="0.25" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/item_chat.xml" value="0.1875" />
+        <entry key="..\:/Users/eze/AndroidStudioProjects/Alarmavecinal/app/src/main/res/layout/item_vecinos.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

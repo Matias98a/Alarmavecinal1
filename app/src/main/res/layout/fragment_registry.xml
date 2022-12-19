@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.RegistryFragment"
+    android:background="#1B1C27">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:background="#631313"
+        android:text="REGISTRAR USUARIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNombreR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtPassR"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassR" />
+
+    <EditText
+        android:id="@+id/edtApellidoR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtNombreR"
+        app:layout_constraintTop_toBottomOf="@+id/edtNombreR" />
+
+    <EditText
+        android:id="@+id/edtDomicilioR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Domicilio"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtBarrioR"
+        app:layout_constraintTop_toBottomOf="@+id/edtBarrioR" />
+
+    <EditText
+        android:id="@+id/edtNumeroR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtDomicilioR"
+        app:layout_constraintTop_toBottomOf="@+id/edtDomicilioR" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#631313"
+        android:text="Registrarme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtEmailR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/edtPassR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtEmailR"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailR" />
+
+    <EditText
+        android:id="@+id/edtDniR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtApellidoR"
+        app:layout_constraintTop_toBottomOf="@+id/edtApellidoR" />
+
+    <EditText
+        android:id="@+id/edtProvinciaR"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Provincia"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtDniR"
+        app:layout_constraintTop_toBottomOf="@+id/edtDniR" />
+
+    <EditText
+        android:id="@+id/edtBarrioR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Barrio"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/edtProvinciaR"
+        app:layout_constraintTop_toBottomOf="@+id/edtProvinciaR" />
+</androidx.constraintlayout.widget.ConstraintLayout>

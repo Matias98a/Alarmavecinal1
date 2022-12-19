@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarVecinoFragment"
+    android:background="#1B1C27">
+
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="124dp"
+        android:text="Nombre :"
+        android:textColor="@color/black"
+        android:background="#631313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:text="Apellido :"
+        android:textColor="@color/black"
+        android:background="#631313"
+        app:layout_constraintStart_toStartOf="@+id/txtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Domicilio :"
+        android:textColor="@color/black"
+        android:background="#631313"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Celular :"
+        android:textColor="@color/black"
+        android:background="#631313"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:ems="10"
+        android:hint="nombre"
+        android:textColor="@color/black"
+        android:background="#8F8F8D"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNombre"
+        app:layout_constraintStart_toEndOf="@+id/txtNombre" />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="apellido"
+        android:textColor="@color/black"
+        android:background="#8F8F8D"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/edtNombre" />
+
+    <EditText
+        android:id="@+id/edtDomicilio"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="domicilio"
+        android:textColor="@color/black"
+        android:background="#8F8F8D"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/edtApellido" />
+
+    <EditText
+        android:id="@+id/edtNumero"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="numero"
+        android:textColor="@color/black"
+        android:background="#8F8F8D"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/edtDomicilio" />
+
+    <Button
+        android:id="@+id/btnGuardarContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="88dp"
+        android:text="Agregar"
+        android:backgroundTint="#631313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btnCancelarContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="Cancelar"
+        android:backgroundTint="#631313"
+        app:layout_constraintStart_toEndOf="@+id/btnGuardarContacto"
+        app:layout_constraintTop_toTopOf="@+id/btnGuardarContacto" />
+</androidx.constraintlayout.widget.ConstraintLayout>
